@@ -1,11 +1,10 @@
-/* %%%%%%%%%%%%%%%%%%%%% Colors %%%%%%%%%%%%%%%%%%% */
-
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Colors %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
 /*
 #ecf4f9  #d0e4f0  #a6c6d9  #7592a3  #475e6b  #3d515c
 #f16221  #f7f8f9  #eaebee  #faebe7  #fff9e9  #eff5ea
 */
 
-/* %%%%%%%%%%%%%%%%%%%%% Font %%%%%%%%%%%%%%%%%%%%% */
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Font %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin-ext');
 
@@ -28,7 +27,7 @@
 	font-family: 'Roboto', sans-serif !important;
 }
 
-/* %%%%%%%%%%%%%%%%%%%%% Login %%%%%%%%%%%%%%%%%%%% */
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Login %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
 
 body#page-login {
 	background-color: #3d515c;
@@ -121,7 +120,7 @@ body#page-login:after {
 	display: none;
 }
 
-/* %%%%%%%%%%%%%%%%%%%%% Main %%%%%%%%%%%%%%%%%%%%% */
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Main %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
 
  body {
 	background: #eaebee;
@@ -131,6 +130,7 @@ body#page-login:after {
 
 .wrapper {
 	margin-bottom: 90px;
+	min-width: 1240px;
 }
 
 .header {
@@ -235,7 +235,7 @@ body#page-login:after {
 	margin-top: 0;
 }
 
-/* %%%%%%%%%%%%%%%%%%%%% Menu %%%%%%%%%%%%%%%%%%%%% */
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Menu %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
 
 #page-help-link:link, #page-help-link:visited {
 	display: none !important;
@@ -273,7 +273,7 @@ body#page-login:after {
 }
 
 #nav ul {
-	box-shadow: 0 0 0 1px rgba(0,0,0,0.25), 0 0 50px rgba(0,0,0,0.15);
+	box-shadow: 0 0 0 1px rgba(0,0,0,0.2), 0 0 50px rgba(0,0,0,0.2);
 	background: #e8e3de;
 	padding-bottom: 0;
 	border: none;
@@ -282,7 +282,7 @@ body#page-login:after {
 }
 
 #nav ul ul {
-	box-shadow: 0 0 0 1px rgba(0,0,0,0.25), 0 0 50px rgba(0,0,0,0.15);
+	box-shadow: 0 0 0 1px rgba(0,0,0,0.2), 0 0 50px rgba(0,0,0,0.2);
 }
 
 #nav li.over ul li.over ul {
@@ -378,7 +378,7 @@ body#page-login:after {
 	border-bottom: none;
 }
 
-/* %%%%%%%%%%%%%%%%%%%%% Grid %%%%%%%%%%%%%%%%%%%%% */
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Grid %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
 
 .grid tr.even, .grid tr.even tr {
 	background: #f7f8f9;
@@ -411,6 +411,10 @@ table.actions td {
 	width: 50%;
 	border-top: 1px solid #fff;
 	padding: 5px 5px 5px 10px;
+}
+
+.massaction .entry-edit fieldset label {
+    margin-right: 5px;
 }
 
 .grid tr.headings {
@@ -455,6 +459,11 @@ table.actions td {
 	padding-top: 5px;
 }
 
+.grid tr.headings th a.sort-arrow-desc:hover,
+.grid tr.headings th a.sort-arrow-asc:hover {
+	background: rgba(246, 247, 248, 1);
+}
+
 .grid th,
 .grid td {
 	padding: 5px 5px 3px;
@@ -467,7 +476,7 @@ table.actions td {
 	font-weight: bold;
 }
 
-/* %%%%%%%%%%%%%%%%%%%%% Form %%%%%%%%%%%%%%%%%%%%% */
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Form %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
 
 button,
 .form-button {
@@ -597,7 +606,7 @@ select {
 	display: none;
 }
 
-select.multiselect {
+select.multiselect {;
 	background: #fff;
 	padding: 5px;
 }
@@ -691,7 +700,15 @@ select:disabled option {
 	text-shadow: none;
 }
 
-/* %%%%%%%%%%%%%%%%%%%%% Other %%%%%%%%%%%%%%%%%%%% */
+.export select {
+	margin: -2px 2px 0;
+}
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Other %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+
+.export img {
+	display: none;
+}
 
 .content-header {
 	border-bottom: none;
@@ -999,7 +1016,7 @@ div.autocomplete ul li {
 	background: #ecf4f9;
 }
 
-/* %%%%%%%%%%%%%%%%%%%%% Popup %%%%%%%%%%%%%%%%%%%% */
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Popup %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
 
 #loading-mask,
 #popup-window-mask,
@@ -1075,7 +1092,7 @@ div.autocomplete ul li {
 	display: none;
 }
 
-/* %%%%%%%%%%%%%%%%%%%%% Dialog %%%%%%%%%%%%%%%%%%% */
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Dialog %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
 
 .dialog {
 	border: 10px solid rgba(0,0,0,0.25) !important;
@@ -1133,7 +1150,7 @@ body > a:hover {
 	text-decoration: none;
 }
 
-/* %%%%%%%%%%%%%%%%%%%%% Extension hacks %%%%%%%%%% */
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Extension hacks %%%%%%%%%%%%%%%%%%%%%%% */
 
 /* Amasty Product Grid */
 
