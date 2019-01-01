@@ -273,7 +273,7 @@ body#page-login:after {
 }
 
 #nav ul {
-	box-shadow: 0 0 0 1px rgba(0,0,0,0.2), 0 0 50px rgba(0,0,0,0.2);
+	box-shadow: 0 0 0 1px rgba(0,0,0,0.2), 0 0 5px rgba(0,0,0,0.2);
 	background: #e8e3de;
 	padding-bottom: 0;
 	border: none;
@@ -282,7 +282,7 @@ body#page-login:after {
 }
 
 #nav ul ul {
-	box-shadow: 0 0 0 1px rgba(0,0,0,0.2), 0 0 50px rgba(0,0,0,0.2);
+	box-shadow: 0 0 0 1px rgba(0,0,0,0.2), 0 0 5px rgba(0,0,0,0.2);
 }
 
 #nav li.over ul li.over ul {
@@ -332,7 +332,7 @@ body#page-login:after {
 	top: 40px;
 	right: -10000px;
 	display: none;
-	box-shadow: 0 0 0 1px rgba(0,0,0,0.25), 0 0 50px rgba(0,0,0,0.15);
+	box-shadow: 0 0 0 1px rgba(0,0,0,0.2), 0 0 5px rgba(0,0,0,0.2);
 	background: #fff;
 }
 
@@ -1150,77 +1150,175 @@ body > a:hover {
 	text-decoration: none;
 }
 
-/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Extension hacks %%%%%%%%%%%%%%%%%%%%%%% */
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Calendar %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
 
-/* Amasty Product Grid */
-
-.ampgrid_input_text {
-	width: calc(100% - 10px) !important;
-	background: none repeat scroll 0 0 #fff;
-	border: 1px solid #3D515C !important;
-	padding: 3px 2px !important;
+.calendar,
+.calendar table {
+	border: none;
+	color: #2f2f2f;
+	cursor: default;
+	background: #ecf4f9;
 	font-family: 'Roboto', sans-serif !important;
-	font-size: inherit !important;
+	box-shadow: 0 0 0 1px rgba(0,0,0,0.2), 0 0 5px rgba(0,0,0,0.2);
 }
 
-.ampgrid-main-col input[type="checkbox"] {
-	width: 16px;
-	margin: 0 2px;
+.calendar table th,
+.calendar table td {
+	vertical-align: middle !important;
+	text-align: center !important;
+	padding: 5px 3px !important;
+	font-size: 110%;
 }
 
-#ampgrid_edit_note {
-	display: none !important;
+.calendar table tr td:last-child {
+	border-right: 0;
 }
 
-.ampgrid-group-switcher {
-	margin-bottom: 10px;
-	border: 1px solid #a6c6d9 !important;
-	background: #ecf4f9 !important;
-	padding: 10px 18px;
+
+.calendar .button {
+	text-align: center;
+	border: 1px solid #fff;
+	border-color: #fff #7592a3 #7592a3 #fff;
 }
 
-div.ampgrid-side-col {
-	margin: 12px 0 0 5px;
-	padding-bottom: 25px;
+.calendar thead .title {
+	font-weight: bold;
+	border: 0;
+	background: #7592a3;
+	font-size: 14px;
 }
 
-.ampgrid-content-header {
-	margin: 12px 0 0 !important;
-	border-bottom: none !important;
-	padding-bottom: none !important;
+.calendar thead .name {
+	border-style: solid;
+	border-width: 1px 1px 1px 0;
+	border-color: #fff #d0e4f0 #d0e4f0 #fff;
+	background: #fff;
 }
 
-.chosen-container .chosen-drop {
-	box-shadow: none;
+.calendar thead .weekend,
+.calendar tbody td.weekend {
+	color: #f16221;
 }
 
-.chosen-container-single .chosen-single {
-	border-radius: 0;
-	background: #fff !important;
-	box-shadow: none;
+.calendar thead .hilite {
+	background-color: #d0e4f0;
+	border: 1px solid #fff;
+	border-color: #fff #7592a3 #7592a3 #fff;
 }
 
-.chosen-container-single .chosen-drop {
-	border-radius: 0;
+.calendar thead .active {
+	background-color: #a6c6d9;
+	border: 1px solid #a6c6d9;
+
 }
 
-.chosen-container-active .chosen-single {
-	border: 1px solid #3D515C;
-	box-shadow: none;
+.calendar tbody .day {
+	width: 3em;
 }
 
-.chosen-container-active.chosen-with-drop .chosen-single {
-	border: 1px solid #3D515C;
-	box-shadow: none;
+.calendar tbody .day.othermonth {
+	color: rgba(47, 47, 47, 0.5);
 }
 
-.chosen-container .chosen-drop {
-	border: 1px solid #3D515C;
-	border-top: 0;
-	box-shadow: none;
+.calendar tbody .day.othermonth.oweekend {
+	color: rgba(241, 98, 33, 0.5);
 }
 
-.chosen-container .chosen-results li.highlighted {
-	background: #3D515C;
+.calendar table .wn {
+	border: 1px solid #d0e4f0;
+	border-width: 0 1px 1px 0;
+	background: #fff;
+}
+
+.calendar tbody .rowhilite td {
+	background: #d0e4f0;
+}
+
+.calendar tbody .rowhilite td.wn {
+	background: #d0e4f0;
+	border-right: 1px solid #fff;
+}
+
+.calendar tbody td.hilite {
+	border: none;
+	box-shadow: 0 0 0 1px #7592a3 inset;
+}
+
+.calendar tbody td.active {
+	border: none;
+	background: #7592a3;
 	color: #fff;
+}
+
+.calendar tbody td.selected {
+	border: none;
+	background: #ff8c00;
+	color: #fff;
+	box-shadow: 0 0 0 1px rgba(0,0,0,0.25) inset;
+}
+
+.calendar tbody td.today {
+	color: #f16221;
+}
+
+.calendar tbody .disabled {
+	color: #a6c6d9;
+}
+
+.calendar tfoot .ttip {
+	border: none;
+	background: #7592a3;
+}
+
+.calendar tfoot .hilite {
+	border: none;
+	box-shadow: 0 0 0 1px rgba(0,0,0,0.25) inset;
+	background: #7592a3;
+}
+
+.calendar tfoot .active {
+	border: none;
+	box-shadow: 0 0 0 1px rgba(0,0,0,0.25) inset;
+	background: #7592a3;
+}
+
+.calendar .combo {
+	border: none;
+	box-shadow: 0 0 0 1px rgba(0,0,0,0.25) inset;
+	background: #a6c6d9;
+	font-size: 12px;
+}
+
+.calendar .combo .active {
+	background: #d0e4f0;
+	border: none;
+}
+
+.calendar .combo .hilite {
+	background: #7592a3;
+	color: #fff;
+}
+
+.calendar td.time {
+	border-top: 1px solid #bbb;
+	background-color: #ecf4f9;
+}
+
+.calendar td.time .hour,
+.calendar td.time .minute,
+.calendar td.time .ampm {
+	border: 1px solid #bbb;
+	background-color: #fff;
+}
+
+.calendar td.time span.hilite {
+	border-color: #ecf4f9;
+	background-color: #7592a3;
+	color: #fff;
+}
+
+.calendar td.time span.active {
+	border-color: #ecf4f9;
+	background-color: #475e6b;
+	color: #ecf4f9;
 }
