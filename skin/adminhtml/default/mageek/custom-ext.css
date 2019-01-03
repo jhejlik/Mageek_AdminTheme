@@ -8,6 +8,14 @@
 
 /* Amasty Product Grid */
 
+.grid table#productGrid_table td img {
+	border: 1px solid #dadddf;
+	display: block;
+	margin: -3px -3px -1px;
+	width: 40px;
+	height: auto;
+}
+
 .ampgrid_input_text {
 	width: calc(100% - 10px) !important;
 	background: none repeat scroll 0 0 #fff;
@@ -77,4 +85,22 @@ div.ampgrid-side-col {
 .chosen-container .chosen-results li.highlighted {
 	background: #3D515C;
 	color: #fff;
+}
+
+/* Mirasvit Advanced Product Feeds */
+
+.feedexport.feed-generator-loader {
+	background: #ffffff !important;
+	border: none !important;
+	left: 0 !important;
+	margin-left: 0 !important;
+	padding: calc(50vh - 200px) 30px !important;
+	top: 0 !important;
+	width: 100vw !important;
+	height: 100vh !important;
+	animation: loader-bg-anim 3s ease infinite;
+}
+
+.feedexport.feed-generator-loader img {
+	display: none;
 }

@@ -59,7 +59,7 @@ body#page-login:after {
 }
 
 .login-form {
-	background: #fff;
+	background: #ffffff;
 	border: none;
 	padding: 40px 50px;
 	box-shadow: 0 30px 150px rgba(0,0,0,0.5);
@@ -112,7 +112,7 @@ body#page-login:after {
 	bottom: 30px;
 	left: 0;
 	width: 100%;
-	color: #fff;
+	color: #ffffff;
 	text-shadow: 0 0 5px rgba(0,0,0,0.5);
 }
 
@@ -187,7 +187,7 @@ body#page-login:after {
 .middle {
 	min-height: calc(100vh - 205px);
 	background-image: none !important;
-	background-color: #fff !important;
+	background-color: #ffffff !important;
 	padding-bottom: 50px;
 	margin-top: 40px;
 	border-bottom: 1px solid #bbb;
@@ -333,7 +333,7 @@ body#page-login:after {
 	right: -10000px;
 	display: none;
 	box-shadow: 0 0 0 1px rgba(0,0,0,0.2), 0 0 5px rgba(0,0,0,0.2);
-	background: #fff;
+	background: #ffffff;
 }
 
 #usermenu li.over ul {
@@ -409,12 +409,12 @@ table.actions td {
 
 .massaction td {
 	width: 50%;
-	border-top: 1px solid #fff;
+	border-top: 1px solid #ffffff;
 	padding: 5px 5px 5px 10px;
 }
 
 .massaction .entry-edit fieldset label {
-    margin-right: 5px;
+	margin-right: 5px;
 }
 
 .grid tr.headings {
@@ -422,7 +422,7 @@ table.actions td {
 }
 
 .grid tr.headings th {
-	border-color: #fff #bbb #fff #fff;
+	border-color: #ffffff #a6c6d9 #ffffff #ffffff;
 	padding: 4px 5px 2px;
 	font-size: .9em;
 	position: relative;
@@ -437,8 +437,8 @@ table.actions td {
 }
 
 .grid tr.filter th {
-	border: 1px solid #bbb;
-	border-color: #bbb #bbb #7592a3 #fff;
+	border: 1px solid #a6c6d9;
+	border-color: #a6c6d9 #a6c6d9 #7592a3 #ffffff;
 }
 
 .grid tr.filter .range .range-line {
@@ -467,6 +467,7 @@ table.actions td {
 .grid th,
 .grid td {
 	padding: 5px 5px 3px;
+	border-color: #dadddf;
 }
 
 .grid table td.empty-text {
@@ -513,7 +514,7 @@ button.delete:active {
 }
 
 button.back {
-	background: #fff;
+	background: #ffffff;
 }
 
 button.back:hover,
@@ -534,7 +535,7 @@ button.disabled,
 button.disabled:hover,
 button.disabled:active {
 	background: #7592a3;
-	color: #fff;
+	color: #ffffff;
 	cursor: default;
 	opacity: .35;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=35)";
@@ -599,7 +600,7 @@ select {
 	-moz-appearance: none;
 	-webkit-appearance: none;
 	appearance: none;
-	background: #fff url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAABDQAAAQ0BROAatAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAADGSURBVDiN5dJBCsIwEIXhvyJqFUzSxFa8/6kE8QCaNBUVihZdaMXSVAU3grML8/JlBhItV+sLX1bvW+AfkMlk/PJCqN9A5qlhkaUkSgaBREkWWUo2M93I6VwBoJXEaNUIGq3Qd/xcVY1e//lgXX57UQqUEABsbY7RCUpMAXC+eOSCSA31oggppighGA2GxPEIAF/sWkBrnbo21uF8AfAAnC/YWBeKtycJreZyj819V7QbqaGyLNkfjq9i7z/bO+Aj5JP6HeQK061AapEXatYAAAAASUVORK5CYII=) right 3px top 3px no-repeat;
+	background: #ffffff url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAABDQAAAQ0BROAatAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAADGSURBVDiN5dJBCsIwEIXhvyJqFUzSxFa8/6kE8QCaNBUVihZdaMXSVAU3grML8/JlBhItV+sLX1bvW+AfkMlk/PJCqN9A5qlhkaUkSgaBREkWWUo2M93I6VwBoJXEaNUIGq3Qd/xcVY1e//lgXX57UQqUEABsbY7RCUpMAXC+eOSCSA31oggppighGA2GxPEIAF/sWkBrnbo21uF8AfAAnC/YWBeKtycJreZyj819V7QbqaGyLNkfjq9i7z/bO+Aj5JP6HeQK061AapEXatYAAAAASUVORK5CYII=) right 3px top 3px no-repeat;
 }
 
 .select-css::-ms-expand {
@@ -607,7 +608,7 @@ select {
 }
 
 select.multiselect {;
-	background: #fff;
+	background: #ffffff;
 	padding: 5px;
 }
 
@@ -640,7 +641,7 @@ select:focus {
 
 .header-right fieldset input.input-text:hover,
 .header-right fieldset input.input-text:focus {
-	background-color: #fff;
+	background-color: #ffffff;
 	outline: none;
 	box-shadow: none;
 }
@@ -655,7 +656,7 @@ input[type="radio"] {
 	overflow: hidden;
 	-webkit-appearance: none;
 	-moz-appearance: none;
-	background-color: #fff;
+	background-color: #ffffff;
 	border: 1px solid #aaa;
 }
 
@@ -946,7 +947,7 @@ div.side-col h3 {
 .grid table.border tfoot tr td,
 .popup-window #contents-uploader {
 	background: #d0e4f0 !important;
-	border-color: #fff transparent !important;
+	border-color: #ffffff transparent !important;
 }
 
 /* Search */
@@ -1001,7 +1002,7 @@ div.autocomplete ul li {
 .sub-btn-set {
 	border: 1px solid #ddd;
 	border-width: 0 1px 1px 1px;
-	background: #fff;
+	background: #ffffff;
 	padding: 10px;
 	text-align: right;
 }
@@ -1009,7 +1010,7 @@ div.autocomplete ul li {
 .address-list li {
 	border: 1px solid #ddd;
 	border-width: 0 1px 1px 1px;
-	background: #fff;
+	background: #ffffff;
 }
 
 .address-list li.on {
@@ -1027,9 +1028,18 @@ div.autocomplete ul li {
 	left: 0 !important;
 	width: 100% !important;
 	height: 100vh !important;
-	background-color: rgba(255,255,255,0.8);
+	background: #ffffff;
+	animation: loader-bg-anim 5s ease infinite;
 	opacity: 1 !important;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)" !important;
+}
+
+@keyframes loader-bg-anim {
+	0% { background: rgba(255, 255, 255, 0.9); }
+	20% { background: rgba(255, 255, 255, 0.9); }
+	45% { background: rgba(255, 255, 255, 0.7); }
+	50% { background: rgba(255, 255, 255, 0.9); }
+	100% { background: rgba(255, 255, 255, 0.9); }
 }
 
 .message-popup {
@@ -1070,22 +1080,12 @@ div.autocomplete ul li {
 	margin: 0;
 	padding: 0;
 	padding-top: 40vh;
-	background: #fff4e9;
 	border: none;
 	color: #d85909;
 	font-weight: normal;
 	text-align: center;
 	z-index: 1000;
-	background: #fff;
-	animation: loader-bg-anim 5s ease infinite;
-}
-
-@keyframes loader-bg-anim {
-	0% { background: rgba(255, 255, 255, 1); }
-	25% { background: rgba(255, 255, 255, 0); }
-	50% { background: rgba(255, 255, 255, 0); }
-	75% { background: rgba(255, 255, 255, 0); }
-	100% { background: rgba(255, 255, 255, 1); }
+	background: transparent;
 }
 
 #loading-mask .loader img {
@@ -1106,7 +1106,7 @@ div.autocomplete ul li {
 .magento_w,
 .magento_e,
 .magento_content {
-	background: #fff !important;
+	background: #ffffff !important;
 }
 
 .magento_title {
@@ -1138,7 +1138,7 @@ body > a {
 	position: fixed;
 	left: 25px;
 	bottom: 10px;
-	color: #fff;
+	color: #ffffff;
 	font-weight: bold;
 	text-decoration: none;
 	text-transform: uppercase;
@@ -1146,7 +1146,7 @@ body > a {
 
 body > a:hover {
 	background: #4a862d;
-	color: #fff;
+	color: #ffffff;
 	text-decoration: none;
 }
 
@@ -1177,8 +1177,8 @@ body > a:hover {
 
 .calendar .button {
 	text-align: center;
-	border: 1px solid #fff;
-	border-color: #fff #7592a3 #7592a3 #fff;
+	border: 1px solid #ffffff;
+	border-color: #ffffff #7592a3 #7592a3 #ffffff;
 }
 
 .calendar thead .title {
@@ -1191,8 +1191,8 @@ body > a:hover {
 .calendar thead .name {
 	border-style: solid;
 	border-width: 1px 1px 1px 0;
-	border-color: #fff #d0e4f0 #d0e4f0 #fff;
-	background: #fff;
+	border-color: #ffffff #d0e4f0 #d0e4f0 #ffffff;
+	background: #ffffff;
 }
 
 .calendar thead .weekend,
@@ -1202,8 +1202,8 @@ body > a:hover {
 
 .calendar thead .hilite {
 	background-color: #d0e4f0;
-	border: 1px solid #fff;
-	border-color: #fff #7592a3 #7592a3 #fff;
+	border: 1px solid #ffffff;
+	border-color: #ffffff #7592a3 #7592a3 #ffffff;
 }
 
 .calendar thead .active {
@@ -1227,7 +1227,7 @@ body > a:hover {
 .calendar table .wn {
 	border: 1px solid #d0e4f0;
 	border-width: 0 1px 1px 0;
-	background: #fff;
+	background: #ffffff;
 }
 
 .calendar tbody .rowhilite td {
@@ -1236,7 +1236,7 @@ body > a:hover {
 
 .calendar tbody .rowhilite td.wn {
 	background: #d0e4f0;
-	border-right: 1px solid #fff;
+	border-right: 1px solid #ffffff;
 }
 
 .calendar tbody td.hilite {
@@ -1247,13 +1247,13 @@ body > a:hover {
 .calendar tbody td.active {
 	border: none;
 	background: #7592a3;
-	color: #fff;
+	color: #ffffff;
 }
 
 .calendar tbody td.selected {
 	border: none;
 	background: #ff8c00;
-	color: #fff;
+	color: #ffffff;
 	box-shadow: 0 0 0 1px rgba(0,0,0,0.25) inset;
 }
 
@@ -1296,7 +1296,7 @@ body > a:hover {
 
 .calendar .combo .hilite {
 	background: #7592a3;
-	color: #fff;
+	color: #ffffff;
 }
 
 .calendar td.time {
@@ -1308,13 +1308,13 @@ body > a:hover {
 .calendar td.time .minute,
 .calendar td.time .ampm {
 	border: 1px solid #bbb;
-	background-color: #fff;
+	background-color: #ffffff;
 }
 
 .calendar td.time span.hilite {
 	border-color: #ecf4f9;
 	background-color: #7592a3;
-	color: #fff;
+	color: #ffffff;
 }
 
 .calendar td.time span.active {
