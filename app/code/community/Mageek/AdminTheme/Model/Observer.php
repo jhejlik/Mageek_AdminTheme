@@ -11,10 +11,10 @@
 class Mageek_AdminTheme_Model_Observer
 {
 
-    public function overrideTheme()
+    public function selectedTheme()
     {
 
-        $theme = Mage::helper('mageek_admintheme')->getAdminTheme();
+        $theme = Mage::helper('mageek_admintheme')->getThemeName();
 
         if (!empty($theme)) {
             Mage::getDesign()->setArea('adminhtml')->setTheme($theme);

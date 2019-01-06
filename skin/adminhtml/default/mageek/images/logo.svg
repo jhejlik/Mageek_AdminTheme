@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="magentologo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-	 y="0px" width="200px" height="80px" viewBox="0 0 200 80" enable-background="new 0 0 200 80" xml:space="preserve">
-<g>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="200px" height="80px" viewBox="0 0 200 80">
 	<rect opacity="0.3" fill="#FFFFFF" width="200" height="80"/>
 	<g>
 		<path fill="#F16221" d="M39.144,13.137L19.995,24.189v22.088l5.469,3.154l-0.036-22.079l13.68-7.908l13.68,7.908v22.07
@@ -191,5 +187,4 @@
 			c0.027-0.054,0.027-0.116,0-0.17l-0.24-0.581l-0.357-0.894l-0.447-1.09c-0.152-0.385-0.313-0.786-0.482-1.188
 			s-0.322-0.804-0.475-1.197l-0.438-1.108c0-0.054,0-0.08,0.063-0.08L170.432,57.545z"/>
 	</g>
-</g>
 </svg>

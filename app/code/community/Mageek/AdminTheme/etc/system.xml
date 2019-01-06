@@ -12,14 +12,12 @@
 
 <config>
   <sections>
-    <design>
+    <admin>
       <groups>
-        <!-- uncomment if you need set admin theme from admin panel -->
-        <!--
         <mageek_admintheme translate="label" module="mageek_admintheme">
           <label>Admin Theme</label>
           <frontend_type>text</frontend_type>
-          <sort_order>3</sort_order>
+          <sort_order>1</sort_order>
           <show_in_default>1</show_in_default>
           <fields>
             <theme_name translate="label comment">
@@ -31,8 +29,8 @@
             </theme_name>
           </fields>
         </mageek_admintheme>
-      -->
+
       </groups>
-    </design>
+    </admin>
   </sections>
 </config>
