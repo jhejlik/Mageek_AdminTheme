@@ -23,7 +23,8 @@
 .grid-severity-minor span,
 .grid-severity-notice,
 .grid-severity-notice span,
-.popup-window .content-header {
+.popup-window .content-header,
+.magento_title {
 	font-family: 'Roboto', sans-serif !important;
 }
 
@@ -202,7 +203,7 @@ body#page-login:after {
 
 .footer {
 	background: #eaebee;
-	padding: 10px 2.8em 10px 2.8em;
+	padding: 10px 2.8em 20px 2.8em;
 	position: fixed;
 	left: 0;
 	bottom: 0;
@@ -217,6 +218,19 @@ body#page-login:after {
 
 .footer .bug-report img {
 	vertical-align: middle;
+}
+
+.footer .legality {
+	line-height: 1em;
+}
+
+
+.footer .legality .mversion {
+	background-color: #FFFFFF;
+	font-weight: bold;
+	padding: 2px 8px;
+	border-radius: 10px;
+	border: 1px solid #dadddf;
 }
 
 .notification-global {
@@ -449,7 +463,8 @@ table.actions td {
 .grid tr.headings th a.sort-arrow-desc,
 .grid tr.headings th a.sort-arrow-asc {
 	background: rgba(246, 247, 248, 0.75);
-	border: none;
+	border: 1px solid #fff;
+	border-color: #a6c6d9 #ffffff #ffffff #a6c6d9;
 	padding-bottom: 2px;
 	position: absolute;
 	top: 2px;
@@ -457,11 +472,6 @@ table.actions td {
 	right: 2px;
 	bottom: 2px;
 	padding-top: 5px;
-}
-
-.grid tr.headings th a.sort-arrow-desc:hover,
-.grid tr.headings th a.sort-arrow-asc:hover {
-	background: rgba(246, 247, 248, 1);
 }
 
 .grid th,
@@ -675,6 +685,7 @@ input.input-text, textarea {
 }
 
 select {
+	height: 25px;
 	padding: 2px 24px 3px 5px;
 	line-height: 18px;
 	-moz-appearance: none;
@@ -690,6 +701,7 @@ select {
 select.multiselect {;
 	background: #ffffff;
 	padding: 5px;
+	height: auto;
 }
 
 input.input-text:hover,
@@ -846,6 +858,7 @@ select:disabled option {
 
 .link-store-scope {
 	background: transparent url("images/ico_scope.svg") 0 2px no-repeat;
+	margin-left: 5px;
 }
 
 
@@ -864,12 +877,12 @@ ul.tabs a {
 }
 
 ul.tabs {
-	border: 1px dotted #a6c6d9;
+	border: 1px solid #a6c6d9;
 	border-width: 1px 1px 0;
 }
 
 ul.tabs.config-tabs {
-	border: 1px dotted #a6c6d9;
+	border: 1px solid #a6c6d9;
 	border-width: 0 1px 1px;
 }
 
@@ -886,6 +899,7 @@ ul.tabs a.active {
 ul.tabs span {
 	background: none;
 	border-bottom: 1px dotted #a6c6d9;
+	margin-right: -1px;
 }
 
 ul.config-tabs dl {
@@ -1097,12 +1111,16 @@ div.autocomplete ul li {
 	background: #ecf4f9;
 }
 
+.clearlooks2_modalBlocker {
+	opacity: 0 !important;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)" !important;
+}
+
 #loading-mask,
 #popup-window-mask,
 .popup-window-mask,
 #message-popup-window-mask,
-.overlay_magento,
-.clearlooks2_modalBlocker {
+.overlay_magento {
 	position: fixed !important;
 	top: 0 !important;
 	left: 0 !important;
