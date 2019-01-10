@@ -14,10 +14,11 @@
   <sections>
     <admin>
       <groups>
+        <!-- Uncomment if you need set the admin theme from admin panel -->
         <mageek_admintheme translate="label" module="mageek_admintheme">
           <label>Admin Theme</label>
           <frontend_type>text</frontend_type>
-          <sort_order>1</sort_order>
+          <sort_order>3</sort_order>
           <show_in_default>1</show_in_default>
           <fields>
             <theme_name translate="label comment">
