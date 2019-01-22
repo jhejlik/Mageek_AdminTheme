@@ -743,8 +743,8 @@ input[type="radio"] {
 	display: inline-block;
 	position: relative;
 	margin: 2px 0;
-	height: 16px;
-	width: 16px;
+	height: 16px !important;
+	width: 16px !important;
 	overflow: hidden;
 	-webkit-appearance: none;
 	-moz-appearance: none;
