@@ -465,13 +465,8 @@ table.actions td {
 	background: rgba(246, 247, 248, 0.75);
 	border: 1px solid #fff;
 	border-color: #a6c6d9 #ffffff #ffffff #a6c6d9;
-	padding-bottom: 2px;
-	position: absolute;
-	top: 2px;
-	left: 2px;
-	right: 2px;
-	bottom: 2px;
-	padding-top: 5px;
+	padding: 3px 4px 1px 0;
+	margin: -2px;
 }
 
 .grid th,
