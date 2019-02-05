@@ -6,6 +6,16 @@
 
 /* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Extension hacks %%%%%%%%%%%%%%%%%%%%%%% */
 
+/* Amasty SMTP Email Settings */
+
+#amsmtp_smtp_provider {
+	width: 200px !important;
+}
+
+#row_amsmtp_smtp_autofill button {
+	margin-top: -53px !important;
+}
+
 /* Amasty Product Grid */
 
 .grid table#productGrid_table td img {
